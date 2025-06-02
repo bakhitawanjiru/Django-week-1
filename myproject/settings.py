@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 #         'PORT': '5432',
 #     }
 # }
-DATABASE ={
+DATABASES ={
     'default':dj_database_url.parse('postgresql://calo_tracker_user:X15bMgwKaQ4ZdjnfLf6xETsns9XVF27I@dpg-d0uoimje5dus739uc1jg-a.oregon-postgres.render.com/calo_tracker')
 }
 
